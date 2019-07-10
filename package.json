@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "browsernizr": "*",
+    "normalize.css": "^8.0.1",
+    "wintersmith-browserify": "*",
+    "wintersmith-less": "*",
+    "wintersmith-livereload": "*",
+    "wintersmith-nunjucks": "*"
+  },
+  "private": true
+}

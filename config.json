@@ -1,0 +1,19 @@
+{
+  "locals": {
+    "name": "IV Café Literário e Batepapo com o Autor",
+    "tema": "Poesia Popular",
+    "dataEvento": "17 de agosto de 2019",
+    "url": "http://awesomeapp.com/",
+    "description": "Forget about drag'n'drop, this is where it's at!",
+    "keywords": "awesome, fast, snappy, instant, horse, pony, unicorn"
+  },
+  "nunjucks": {
+    "autoescape": false
+  },
+  "plugins": [
+    "wintersmith-browserify",
+    "wintersmith-less",
+    "wintersmith-nunjucks",
+    "wintersmith-livereload"
+  ]
+}

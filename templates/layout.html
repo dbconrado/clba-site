@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ name }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="keywords" content="{{ keywords }}">
+  <meta name="viewport" content="width=device-width">
+  <meta property="og:title" content="{{ name }}">
+  <meta property="og:url" content="{{ url }}">
+  <meta property="og:description" content="{{ description }}">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/png" sizes="64x64">
+  <script src="/scripts/main.js"></script>
+  {{ livereloadScript }}
+</head>
+<body>
+  <header>
+    <img id="logoclba" src="img/clba-pequeno.png" alt="Logo do Café Literário">
+    <h1>{{ name }}</h1>
+    <div id="tema">{{ tema }}</div>
+    <div id="tema_data">{{ dataEvento }}</div>
+  </header>
+  <main>
+  {% block body %}{% endblock %}
+  </main>
+  <footer>
+    <section id="sobre">
+      {{ contents['sobre.md'].html }}
+      <img id="logoifmg" src="img/ifmg-pequeno.jpg" alt="Logo do IFMG Campus Sabará">
+    </section>
+    <section id="cc">
+        <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Este trabalho está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição  4.0 Internacional</a>.
+    </section>
+  </footer>
+</body>
+</html>
