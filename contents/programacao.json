@@ -1,0 +1,15 @@
+{
+    "template": "",
+    "atividades": [
+        {
+            "horario": "das 13h às 15h",
+            "titulo": "Atividades Culturais",
+            "descricao": "lorem ipsum dolor sit amet"
+        },
+        {
+            "horario": "15h",
+            "titulo": "Mesa Redonda",
+            "descricao": "Um batepapo com o poeta Silas da Fonseca."
+        }
+    ]
+}

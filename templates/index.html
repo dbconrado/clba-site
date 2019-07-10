@@ -2,4 +2,18 @@
 
 {% block body %}
   {{ page.html }}
+  
+  <section id="programacao">
+    <h2>Programação</h2>
+
+    {% for atividade in contents['programacao.json'].metadata.atividades %}
+    <div class="prog-item">
+      <h3 class="prog-titulo">{{ atividade.titulo }}</h3>
+      <p class="prog-horario">{{ atividade.horario }}</p>
+      <p class="prog-descricao">{{ atividade.descricao }}</p>
+    </div>
+    {% endfor %}
+
+  </section>
+
 {% endblock %}
