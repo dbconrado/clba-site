@@ -9,6 +9,7 @@
 
 @letreiro: #6f8799;
 @letreiro_alt: #a09383;
+@complementar: #996F87;
 
 * {
   box-sizing: border-box;
@@ -22,7 +23,6 @@ html, body {
 body {
   font-family: 'Lora', serif;
   color: @text;
-  padding: 1.1rem;
   background-image: url('../img/clba2019-fundo.png');
   background-attachment: scroll;
   background-repeat: no-repeat;
@@ -52,9 +52,8 @@ header h1 {
 }
 
 #tema_data {
-  text-align: center;
-  font-size: 20px;
-  margin-top: 14px;
+  font-size: 15px;
+  padding-top: 8px;
 }
 
 #logoclba {
@@ -62,7 +61,11 @@ header h1 {
   margin: 0 auto;
 }
 
-p {
+header, main, footer {
+  padding: 1.1rem;
+}
+
+main p {
   background-color: rgba(255, 255, 255, 0.75);
   color: #444;
   line-height: 38px;
@@ -71,6 +74,30 @@ p {
 
 img {
   max-width: 100%;
+}
+
+footer {
+  background-color: @complementar;
+  color: white;
+}
+
+footer p {
+  line-height: 24px;
+  font-size: 100%;
+}
+
+footer #sobre {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer #sobre p {
+  flex: 1;
+  padding-right: 8px;
+}
+
+footer #sobre a {
+  flex: 0 1 25%;
 }
 
 @media (max-width: 800px) {
