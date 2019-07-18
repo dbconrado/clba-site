@@ -4,12 +4,12 @@
         {
             "horario": "das 13h às 15h",
             "titulo": "Atividades Culturais",
-            "descricao": "lorem ipsum dolor sit amet"
+            "descricao": "Neste intervalo, teremos apresentações musicais e outras atividades (mais informações em breve)."
         },
         {
             "horario": "15h",
             "titulo": "Mesa Redonda",
-            "descricao": "Um batepapo com o poeta Silas da Fonseca."
+            "descricao": "Um batepapo com o poeta Silas da Fonseca e a professora Águida Alves."
         }
     ]
 }
