@@ -3,9 +3,9 @@
     "name": "IV Café Literário e Batepapo com o Autor",
     "tema": "Poesia Popular",
     "dataEvento": "17 de agosto de 2019",
-    "url": "http://awesomeapp.com/",
-    "description": "Forget about drag'n'drop, this is where it's at!",
-    "keywords": "awesome, fast, snappy, instant, horse, pony, unicorn"
+    "url": "https://sabara.ifmg.edu.br/clba",
+    "description": "Este ano, o CLBA 2019 recebe com muito carinho Silas da Fonseca, poeta popular, contador de histórias, músico e educador de Sabará, MG.",
+    "keywords": "ifmg, sabará, evento literário, silas da fonseca, poesia popular"
   },
   "nunjucks": {
     "autoescape": false
@@ -15,5 +15,6 @@
     "wintersmith-less",
     "wintersmith-nunjucks",
     "wintersmith-livereload"
-  ]
+  ],
+  "baseUrl": "/clba/"
 }
