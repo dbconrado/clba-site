@@ -17,6 +17,7 @@
   {{ livereloadScript }}
 </head>
 <body>
+  <img id="imgfundo" src="img/clba2019-fundo.png" alt="Imagem de fundo: desenho da rua principal de Sabará com trechos de poemas do autor Silas da Fonseca">
   <header>
     <img id="logoclba" src="img/clba-pequeno.png" alt="Logo do Café Literário">
     <h1>{{ name }}</h1>
@@ -27,17 +28,19 @@
   {% block body %}{% endblock %}
   </main>
   <footer>
-    <section id="sobre">
-      {{ contents['sobre.md'].html }}
-      <a href="https://www.ifmg.edu.br/sabara">
-      <img id="logoifmg" src="img/ifmg-grande-vertical-monocromatico-invertido.png" alt="Logo do IFMG Campus Sabará">
-      </a>
-    </section>
-    <section id="cc">
-        <p>
-          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Este trabalho está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição  4.0 Internacional</a>.
-        </p>
-    </section>
+    <div id="footer_container">
+      <section id="sobre">
+        {{ contents['sobre.md'].html }}
+        <a href="https://www.ifmg.edu.br/sabara">
+        <img id="logoifmg" src="img/ifmg-grande-vertical-monocromatico-invertido.png" alt="Logo do IFMG Campus Sabará">
+        </a>
+      </section>
+      <section id="cc">
+          <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />Este trabalho está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição  4.0 Internacional</a>.
+          </p>
+      </section>
+    </div>
   </footer>
 </body>
 </html>

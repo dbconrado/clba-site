@@ -23,10 +23,20 @@ html, body {
 body {
   font-family: 'Lora', serif;
   color: @text;
-  background-image: url('../img/clba2019-fundo.png');
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: 100%;
+}
+
+#imgfundo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+a {
+  color: #000;
 }
 
 header {
@@ -98,6 +108,26 @@ footer #sobre p {
 
 footer #sobre a {
   flex: 0 1 25%;
+}
+
+@media (min-width: 660px) {
+  header, main {
+    width: 660px;
+    margin: auto;
+  }
+
+  #footer_container {
+    width: 660px;
+    margin: auto;
+  }
+
+}
+
+@media (min-width: 550px) {
+  footer #sobre a {
+    flex: 0 1 120px;
+  }
+
 }
 
 @media (max-width: 800px) {
