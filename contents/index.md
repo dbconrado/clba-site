@@ -8,7 +8,23 @@ Este ano, o CLBA 2019 recebe com muito carinho
 *Silas da Fonseca*, poeta popular, contador de histórias,
 músico e educador de Sabará, MG.
 
-![Silas da Fonseca](img/silas-capa.jpg)
+<img src="img/silas-capa.jpg" alt="Silas da Fonseca" id="img-capa">
+
+## Sobre o Autor
+
+Silas da Fonseca é poeta, contador de histórias e músico. Natural de Jaboticatubas / MG, vive no Pompéu, em Sabará / MG, desde criança. Tem dois livros editados – "Alma, verso e coração" (poesia) e "O Pompéu do Ora pro nobis em prosa e poesia" (“causos”) –   mais de seiscentos textos no Recanto das Letras, contando com mais de oitenta mil leituras, e cordéis. Ao lado do músico José Alves, criou o grupo Cantarolê a gravou dois CDs de músicas educativas. Atualmente conduz o projeto Rancho da Cultura, que recebe mais de três mil crianças todo ano, para atividades de incentivo à leitura e preservação ambiental.
+
+<div id="foto-gallery">
+    <div>
+        <img src="img/silas-criancas1.jpg">
+    </div>
+    <div>
+        <img src="img/silas-criancas2.jpg">
+    </div>
+    <div>
+        <img src="img/silas-criancas3.jpg">
+    </div>
+</div>
 
 ## Inscrições
 

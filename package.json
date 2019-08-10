@@ -1,7 +1,10 @@
 {
   "dependencies": {
     "browsernizr": "*",
+    "jquery": "^3.4.1",
     "normalize.css": "^8.0.1",
+    "slick-carousel": "^1.8.1",
+    "slick-carousel-browserify": "^1.6.12",
     "wintersmith-browserify": "*",
     "wintersmith-less": "*",
     "wintersmith-livereload": "*",

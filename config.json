@@ -16,5 +16,8 @@
     "wintersmith-nunjucks",
     "wintersmith-livereload"
   ],
-  "baseUrl": "/clba/"
+  "baseUrl": "/clba/",
+  "less": {
+    "exclude": "styles/vendor/ajax-loader.gif"
+  }
 }

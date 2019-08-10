@@ -2,6 +2,8 @@
 /* @import 'vendor/reset'; */
 @import 'vendor/normalize.css';
 @import 'vendor/elements';
+@import 'vendor/slick';
+@import 'vendor/slick-theme';
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
 @background: #d4d4d4;
@@ -10,6 +12,8 @@
 @letreiro: #6f8799;
 @letreiro_alt: #a09383;
 @complementar: #996F87;
+
+@minwidth: 550px; /* tamanho minimo para considerar maior que smartphone */
 
 * {
   box-sizing: border-box;
@@ -31,7 +35,7 @@ body {
   top: 0;
   width: 100%;
   height: auto;
-  opacity: 0.3;
+  opacity: 0.5;
   z-index: -1;
 }
 
@@ -86,6 +90,30 @@ img {
   max-width: 100%;
 }
 
+#img-capa {
+  max-width: 52%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: @minwidth) {
+
+    max-width: 40%;
+    display: inline;
+    float: left;
+    margin-right: 1rem;
+
+  }
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  padding: 1ex;
+  font-size: smaller;
+  text-align: center;
+}
+
 footer {
   background-color: @complementar;
   color: white;
@@ -123,7 +151,7 @@ footer #sobre a {
 
 }
 
-@media (min-width: 550px) {
+@media (min-width: @minwidth) {
   footer #sobre a {
     flex: 0 1 120px;
   }
