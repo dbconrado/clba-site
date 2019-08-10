@@ -6,7 +6,9 @@ ready(function() {
     slick($("#foto-gallery"), {
         dots: true,
         autoplay: true,
-        autoplaySpeed: 5000
+        autoplaySpeed: 5000,
+        adaptiveHeight: true,
+        arrows: true
     });
 
     /* exibir mais a imagem da capa */

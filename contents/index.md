@@ -24,6 +24,12 @@ Silas da Fonseca é poeta, contador de histórias e músico. Natural de Jabotica
     <div>
         <img src="img/silas-criancas3.jpg">
     </div>
+    <div>
+        <img src="img/silas4.jpg">
+    </div>
+    <div>
+        <img src="img/silas1.jpg">
+    </div>
 </div>
 
 ## Inscrições
