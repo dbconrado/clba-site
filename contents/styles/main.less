@@ -35,8 +35,19 @@ body {
   top: 0;
   width: 100%;
   height: auto;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: -1;
+
+  @media (max-width: 366px) {
+    top: 74px;
+  }
+
+  @media (min-width: 660px) {
+    top: -18%;
+    left: 50%;
+    margin-left: calc(-528px / 2);
+    width: 528px;
+  }
 }
 
 a {
@@ -45,6 +56,11 @@ a {
 
 header {
   width: 100%;
+  margin-bottom: 30vw;
+
+  @media (min-width: 660px) {
+    margin-bottom: 170px;
+  }
 }
 
 header h1 {
@@ -58,6 +74,7 @@ header h1 {
 #tema, #tema_data {
   background-color: rgba(255, 255, 255, 0.75);
   color: @letreiro_alt;
+  text-align: center;
 }
 
 #tema {
@@ -141,12 +158,14 @@ footer #sobre a {
 @media (min-width: 660px) {
   header, main {
     width: 660px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #footer_container {
     width: 660px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }
