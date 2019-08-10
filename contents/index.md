@@ -13,9 +13,9 @@ músico e educador de Sabará, MG.
 ## Inscrições
 
 Na edição deste ano, não é necessário fazer inscrição.
-É só vir e prestigiar!
-Se você precisar de um certificado de participação,
-lhe providenciaremos.
+É só vir e participar!
+Aos que precisarem, certificados impressos serão
+oferecidos ao final do evento.
 
 ### Endereço do evento
 
