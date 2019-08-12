@@ -8,8 +8,8 @@
 
     {% for atividade in contents['programacao.json'].metadata.atividades %}
     <div class="prog-item">
-      <h3 class="prog-titulo">{{ atividade.titulo }}</h3>
       <p class="prog-horario">{{ atividade.horario }}</p>
+      <p class="prog-titulo">{{ atividade.titulo }}</p>
       <p class="prog-descricao">{{ atividade.descricao }}</p>
     </div>
     {% endfor %}

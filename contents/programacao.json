@@ -3,13 +3,13 @@
     "atividades": [
         {
             "horario": "das 13h às 15h",
-            "titulo": "Atividades Culturais",
-            "descricao": "Grupo Arautos da Poesia, Grupo Lua"
+            "titulo": "<p>Grupo Arautos da Poesia</p><p>Apresentação de hip-hop</p>",
+            "descricao": ""
         },
         {
-            "horario": "15h",
-            "titulo": "Mesa Redonda",
-            "descricao": "Um batepapo com o poeta Silas da Fonseca e a professora Águida Alves."
+            "horario": "às 15h",
+            "titulo": "",
+            "descricao": "Bate-papo com o poeta Silas da Fonseca e a educadora Águida Alves e apresentação musical em parceria com Zé Alves."
         }
     ]
 }
