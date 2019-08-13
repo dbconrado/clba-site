@@ -132,6 +132,161 @@ figcaption {
   text-align: center;
 }
 
+#menu {
+  position: fixed;
+  left: 50%;
+  top: 0;
+  margin-left: calc(-660px / 2);
+  margin-top: 8px;
+  padding-left: 1.1rem;
+
+  nav {
+    width: 100%;
+    line-height: 28px;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    a {
+      background-color: #f8f8fb;
+      padding: 1rem;
+      display: block;
+    }
+  }
+
+
+  @media (min-width: 660px) {
+
+    width: 660px;
+
+    nav {
+      display: block;
+      width: fit-content;
+      position: relative;
+      
+      a {
+        padding: 0.5ex;
+        font-size: small;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: padding .2s ease, background-color .2s ease;
+      }
+
+      a:hover {
+        padding: 0.5ex 0.2ex 0.5ex 0.8ex;
+        background-color: #fff;
+        color: #1500ff;
+      }
+    }
+  
+  }
+
+}
+
+#menuToggle {
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 18px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+
+  input {
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: -7px;
+    left: -5px;
+    
+    cursor: pointer;
+    
+    opacity: 0; /* hide this */
+    z-index: 2; /* and place it over the hamburger */
+    
+    -webkit-touch-callout: none;
+  }
+
+  span {
+    display: block;
+    width: 27px;
+    height: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    
+    background: #232323;
+    border-radius: 3px;
+    
+    z-index: 1;
+    
+    transform-origin: 4px 0px;
+    
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+    
+  }
+
+  span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+* But let's hide the middle one.
+*/
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+* Ohyeah and the last one should go the other direction
+*/
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+} 
+
+#menuToggle input:checked ~ #menu-itens {
+  transform: none;
+}
+
+#menu-itens {
+  position: absolute;
+  width: 100%;
+  margin-left: -18px;
+  margin-top: -77px;
+  padding-left: 0;
+  padding-top: 77px;
+  background-color: #f8f8fb;
+  list-style-type: none;
+
+  transform-origin: 0% 0%;
+  transform: translate(0, -100%);
+
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
 .prog-horario {
   font-family: 'Roboto Mono', monospace;
   font-weight: bold;
