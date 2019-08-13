@@ -6,7 +6,7 @@
     "url": "https://sabara.ifmg.edu.br/clba",
     "description": "Este ano, o CLBA 2019 recebe com muito carinho Silas da Fonseca, poeta popular, contador de histórias, músico e educador de Sabará, MG.",
     "keywords": "ifmg, sabará, evento literário, silas da fonseca, poesia popular",
-    "versao": "1.0.1"
+    "versao": "2.0.0"
   },
   "nunjucks": {
     "autoescape": false

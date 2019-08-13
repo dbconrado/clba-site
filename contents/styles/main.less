@@ -173,6 +173,10 @@ figcaption {
         display: inline-block;
         margin-left: auto;
         margin-right: auto;
+        -webkit-transition: padding .2s ease, background-color .2s ease;
+        -moz-transition: padding .2s ease, background-color .2s ease;
+        -ms-transition: padding .2s ease, background-color .2s ease;
+        -o-transition: padding .2s ease, background-color .2s ease;
         transition: padding .2s ease, background-color .2s ease;
       }
 
@@ -197,13 +201,30 @@ figcaption {
   background-color: #f8f8fb;
   list-style-type: none;
 
+  -webkit-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -o-transform-origin: 0% 0%;
   transform-origin: 0% 0%;
+
+  -webkit-transform: translate(0, -100%);
+  -moz-transform: translate(0, -100%);
+  -ms-transform: translate(0, -100%);
+  -o-transform: translate(0, -100%);
   transform: translate(0, -100%);
 
+  -webkit-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  -moz-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  -ms-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  -o-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 
   @media (min-width: @maxcontentwidth) {
 
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
     transform: none;
     position: relative;
     margin-left: 0;
@@ -253,8 +274,24 @@ figcaption {
     
     z-index: 1;
     
+    -webkit-transform-origin: 4px 0px;
+    -moz-transform-origin: 4px 0px;
+    -ms-transform-origin: 4px 0px;
+    -o-transform-origin: 4px 0px;
     transform-origin: 4px 0px;
     
+    -webkit-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+    -moz-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+    -ms-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+    -o-transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
                 opacity 0.55s ease;
@@ -262,10 +299,18 @@ figcaption {
   }
 
   span:first-child {
+    -webkit-transform-origin: 0% 0%;
+    -moz-transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -o-transform-origin: 0% 0%;
     transform-origin: 0% 0%;
   }
 
   span:nth-last-child(2) {
+    -webkit-transform-origin: 0% 100%;
+    -moz-transform-origin: 0% 100%;
+    -ms-transform-origin: 0% 100%;
+    -o-transform-origin: 0% 100%;
     transform-origin: 0% 100%;
   }
 
@@ -286,6 +331,10 @@ figcaption {
 #menuToggle input:checked ~ span
 {
   opacity: 1;
+  -webkit-transform: rotate(45deg) translate(-2px, -1px);
+  -moz-transform: rotate(45deg) translate(-2px, -1px);
+  -ms-transform: rotate(45deg) translate(-2px, -1px);
+  -o-transform: rotate(45deg) translate(-2px, -1px);
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
@@ -296,6 +345,10 @@ figcaption {
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
   opacity: 0;
+  -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+  -moz-transform: rotate(0deg) scale(0.2, 0.2);
+  -ms-transform: rotate(0deg) scale(0.2, 0.2);
+  -o-transform: rotate(0deg) scale(0.2, 0.2);
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
@@ -304,10 +357,18 @@ figcaption {
 */
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
+  -webkit-transform: rotate(-45deg) translate(0, -1px);
+  -moz-transform: rotate(-45deg) translate(0, -1px);
+  -ms-transform: rotate(-45deg) translate(0, -1px);
+  -o-transform: rotate(-45deg) translate(0, -1px);
   transform: rotate(-45deg) translate(0, -1px);
 } 
 
 #menuToggle input:checked ~ #menu-itens {
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
   transform: none;
 }
 
