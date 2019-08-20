@@ -89,6 +89,8 @@ Em sua 3.ª edição, o CLBA recebeu Conceição Evaristo para debater a leitura
     </div>
 </div>
 
+*Créditos das fotos:* Marcelo Quintão e Silva
+
 ### CLBA 2017: Olegário Alfredo (Mestre Gaio)
 
 Em 2017, o CLBA integrou a FLIS (Festa Literária de Sabará) e participou da temática geral deste evento: _“Literatura de Cordel”_. O autor convidado foi o cordelista mineiro e ex-presidente da Academia Brasileira de Literatura de Cordel, Olegário Alfredo (Mestre Gaio), que debateu o tema do encontro e a leitura de vários de seus livros.
@@ -110,6 +112,8 @@ Em 2017, o CLBA integrou a FLIS (Festa Literária de Sabará) e participou da te
         <img data-lazy="img/2017/olegario5.jpg">
     </div>
 </div>
+
+*Créditos das fotos:* Marcelo Quintão e Silva
 
 ### CLBA 2016: Ana Elisa Ribeiro
 
@@ -135,3 +139,5 @@ O tema do I CLBA foi **_Poesia e Escola_** e a autora convidada foi a poeta mine
         <img data-lazy="img/2016/ana6.jpg">
     </div>
 </div>
+
+*Créditos das fotos:* Marcelo Quintão e Silva
